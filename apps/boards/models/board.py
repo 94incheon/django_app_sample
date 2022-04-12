@@ -1,6 +1,6 @@
 from django.db import models
 
-from core.base.models.model_base import DateTimeModel
+from core.base.base_models import DateTimeModel
 
 
 class Board(DateTimeModel):
